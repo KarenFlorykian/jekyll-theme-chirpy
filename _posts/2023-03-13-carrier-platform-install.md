@@ -54,7 +54,7 @@ system_requirements, hardware, installation
 |--------------|-----------------------------------------------------------------------------------------------------------------------|
 | Ubuntu       | Check if you have any daily services enabled using the following command:                                          |
 |              | `$ sudo systemctl list-timers`                                                                                          |
-|              | ![img-description](https://karenflorykian.github.io/assets/img/ubuntu_inst.png)                                                                   |
+|              | ![img-description](/assets/img/ubuntu_inst.png)                                                                   |
 |              | The following services should be stopped/disabled: `apt-daily-upgrade.service`, `apt-daily.service`                    |
 |              |                                                                                                                       |
 |              | `$ sudo systemctl stop apt-daily-upgrade.timer`                                                                          |
@@ -90,10 +90,10 @@ system_requirements, hardware, installation
 ```bash
 $ sudo systemctl list-timers
 ```
-![img-description](https://karenflorykian.github.io/assets/img/ubuntu_inst.png) 
+![img-description](/assets/img/ubuntu_inst.png) 
 The following services should be stopped/disabled: apt-daily-upgrade.service, apt-daily.service
 
-![img-description](https://karenflorykian.github.io/assets/img/ununtu1_inst.png) 
+![img-description](/assets/img/ununtu1_inst.png) 
 The following services should be stopped/disabled: apt-daily-upgrade.service, apt-daily.service
 
 ```bash
