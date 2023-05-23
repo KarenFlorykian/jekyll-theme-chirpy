@@ -132,7 +132,7 @@
   
       const playElement = document.createElement('span');
       playElement.classList.add('play');
-      playElement.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg"><use xlink:href="images/icons.svg#video-play"></use></svg>';
+      playElement.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg"><use xlink:href="/assets/img/icons.svg#video-play"></use></svg>';
   
       el.appendChild(getPicture(medias));
       el.appendChild(playElement);
