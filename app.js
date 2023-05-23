@@ -206,17 +206,17 @@
       root.classList[hasMenu ? 'remove' : 'add'](menuToggle);
     }
   
-    function navigateTo(e) {
-      e.preventDefault();
+    // function navigateTo(e) {
+    //   e.preventDefault();
   
-      const header = document.querySelector('header');
-      const destination = document.querySelector(e.target.hash);
-      window.scrollTo(null, destination.offsetTop - header.offsetHeight);
+    //   const header = document.querySelector('header');
+    //   const destination = document.querySelector(e.target.hash);
+    //   window.scrollTo(null, destination.offsetTop - header.offsetHeight);
   
-      if (deviceType !== 'desktop') {
-        toggleMenu();
-      }
-    }
+    //   if (deviceType !== 'desktop') {
+    //     toggleMenu();
+    //   }
+    // }
   
     function hashchangeHandler() {
       navLinks.forEach(({ classList }) => classList.remove('current'));
